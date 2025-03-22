@@ -6,26 +6,26 @@
 #REQUIRED
 org_name: Global AI Literacy Forum
 org_summary: > # Enter your summary on the next line. Be sure to indent by two spaces.
-  Org Summary; to be written later
+  Building an AI Literate Community, Bridging the Digital Divide
 org_full_description: > # Enter your description on the next line. Be sure to indent by two spaces.
   Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
 
 #OPTIONAL
 #Non US-address support coming soon
 org_general_email_inbox: 	contact@globalailiteracyforum.org
-org_street_address: 1355 Market Street #Please include suite number on the line below
-org_address_suite: Suite 900
-org_city: San Francisco
+org_street_address: 
+org_address_suite: 
+org_city: Columbus
 org_state: NE
 org_zip: > # Enter zip on next line. Be sure to indent by two spaces.
-  XXXX
+  68601
 org_phone: > # Enter phone on next line. Be sure to indent by two spaces.
-  (123) 456-7890
+  
 
 #SOCIAL MEDIA
-org_twitter_username: something
-org_facebook_username: something
-org_instagram_username:
+org_facebook_username: 61574469867169
+org_instagram_username: global_ai_literacy_form
+org_linkedin_username: global-ai-literacy-forum
 
 #TAX STATUS
 #Your site will display an appropriate message below the Donate section
