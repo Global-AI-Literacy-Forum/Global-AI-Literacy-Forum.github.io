@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact The Global AI Literacy Forum for inquiries, volunteer opportunities, or partnerships.">
+    <title>Contact Us - The Global AI Literacy Forum</title>
+    <!-- Google Fonts (Example: Poppins & Noto Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/contact.css">
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-brain logo-icon"></i> <!-- Example Icon -->
+                Global AI Literacy Forum
+            </a>
+            <nav>
+                <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="community.html">Community</a></li>
+                    <li><a href="our-work.html">Our Work</a></li>
+                    <li><a href="news.html">Updates</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Contact Info & General Form Section -->
+        <section id="general-contact" class="section-padding">
+            <div class="container">
+                <div class="contact-grid">
+
+                    <!-- Column 1: Contact Information -->
+                    <div class="contact-info animate-on-scroll fade-in-left">
+                        <h3>Contact Information</h3>
+                        <p>For general inquiries, media requests, or partnership discussions, please use the form or contact us directly:</p>
+                        <p>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:contact@globalailiteracyforum.org">contact@globalailiteracyforum.org</a>
+                        </p>
+                        <p>
+                            <i class="fas fa-globe"></i>
+                            <a href="https://globalailiteracyforum.org/">www.globalailiteracyforum.org</a> 
+                        </p>
+                        <div class="contact-social-icons">
+                            <a href="https://www.linkedin.com/company/global-ai-literacy-forum/" aria-label="Link to LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://chat.whatsapp.com/BTw8nBNfo4Q7MoGLGY4C24" aria-label="Link to WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61574469867169" aria-label="Link to Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/global_ai_literacy_form/" aria-label="Link to Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Column 2: General Enquiry Form -->
+                    <div class="contact-form-section animate-on-scroll fade-in-right">
+                        <h3>Send Us a Message</h3>
+                        <form id="general-enquiry-form" action="https://api.web3forms.com/submit" method="POST"> 
+                            <input type="hidden" name="access_key" value="3b6dbfc4-8a6e-41cd-8ddc-78ef368a2696" />
+                            <input type="hidden" name="from_name" value="Inquaries GAI" />
+                            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                            <div class="h-captcha" data-captcha="true"></div>
+                            <input type="hidden" name="redirect" value="https://globalailiteracyforum.org/contact.html"/>
+
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Subject</label>
+                                <input type="email" id="email" name="email" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message for us</label>
+                                <textarea id="message" name="message" rows="6" placeholder="Your message here..." required></textarea>
+                            </div>
+                            <button type="submit" class="submit-button">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Volunteer Form Section -->
+        <section id="volunteer-form" class="section-padding light-bg">
+            <div class="section-divider top-angle"></div>
+            <div class="container animate-on-scroll fade-in-up">
+                <h2 class="section-title text-center">Interested in Volunteering?</h2>
+                <p class="section-subtitle text-center">Let us know your primary area of interest!</p>
+
+                <div style="max-width: 700px; margin: 0 auto;">
+                    <form id="general-enquiry-form" action="https://api.web3forms.com/submit" method="POST"> 
+                        <input type="hidden" name="access_key" value="3b6dbfc4-8a6e-41cd-8ddc-78ef368a2696" />
+                        <input type="hidden" name="from_name" value="Volunteer at GAI" />
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                        <div class="h-captcha" data-captcha="true"></div>
+                        <input type="hidden" name="redirect" value="https://globalailiteracyforum.org/contact#volunteer-form.html"/>
+
+                        <div class="form-group">
+                            <label for="volunteer-name">Full Name</label>
+                            <input type="text" id="volunteer-name" name="volunteer-name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="volunteer-email">Email Address</label>
+                            <input type="email" id="volunteer-email" name="volunteer-email" placeholder="your.email@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="volunteer-interest">Primary Area of Interest</label>
+                            <div class="select-wrapper">
+                                <select id="volunteer-interest" name="subject" required>
+                                    <option value="" disabled selected>-- Please Select One --</option>
+                                    <option value="vertex1">Research</option>
+                                    <option value="vertex2">IT Infrastructure</option>
+                                    <option value="vertex3">Community Outreach</option>
+                                    <option value="vertex4">Social Media Management</option>
+                                    <option value="vertex5">Web Development</option>
+                                    <option value="vertex6">Administrative Management</option>
+                                    <option value="vertex6">Just Trying to Figure Out</option>
+                                    <option value="other">Other (Please specify on the message)</option>
+                                </select>
+                                <i class="fas fa-chevron-down select-arrow"></i> 
+                            </div>
+                        </div>
+                        <!-- *** END OF UPDATED AREA *** -->
+
+                        <div class="form-group">
+                            <label for="volunteer-message">Briefly tell us about your skills or how you'd like to help (esp. if 'Other' selected)</label>
+                            <textarea id="volunteer-message" name="volunteer-message" rows="4" placeholder="E.g., Experience in teaching, web development skills, passion for digital equity..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button">
+                            <i class="fas fa-user-plus"></i> Submit Volunteer Interest
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="section-divider bottom-angle"></div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section, this will be same for all the pages -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-about">
+                 <a href="index.html" class="logo footer-logo">
+                    <i class="fas fa-brain logo-icon"></i>
+                    Global AI Literacy Forum
+                 </a>
+                 <p class="non-profit-status">A Not-for-Profit Org</p>
+                <p>Building an AI Literate Community, Bridging the Digital Divide.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                 <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="our-work.html">Our Work</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+             <div class="footer-contact">
+                 <h4>Get In Touch</h4>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:contact@globalailiteracyforum.org">contact@globalailiteracyforum.org</a></p>
+                <!-- Add Social media links here -->
+                 <div class="social-icons">
+                    <a href="https://www.linkedin.com/company/global-ai-literacy-forum/" aria-label="Link to LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://chat.whatsapp.com/BTw8nBNfo4Q7MoGLGY4C24" aria-label="Link to WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61574469867169" aria-label="Link to Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/global_ai_literacy_form/" aria-label="Link to Instagram"><i class="fab fa-instagram"></i></a>
+                 </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span id="current-year"></span> The Global AI Literacy Forum</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+ 
